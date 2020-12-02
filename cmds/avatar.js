@@ -20,7 +20,7 @@ exports.run = async (bot, message, args) => {
   .setTitle(`${user.tag} avatar`)
   .setDescription(`[Avatar URL De **${user.tag}**](${avatar})`)
   .setColor("#00FFFB")
-  .setFooter('LuffyBot')
+  .setFooter('RandomBot')
   .setTimestamp()
   .setImage(avatar)
   
