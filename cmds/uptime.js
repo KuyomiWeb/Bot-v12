@@ -1,8 +1,7 @@
 const Discord = require('discord.js');
-const colours = require("../colours.json")
 
 module.exports.run = async(bot, message, args) => {
-    if(message.author.id !== "695826159681667084") return message.channel.send(new Discord.MessageEmbed().setTitle('<:non:762340052666679306> | Vous êtes Pas Le Owner Du Bot !').setColor('#FF0000'))
+    if(message.author.id !== "id de l'owner!") return message.channel.send(new Discord.MessageEmbed().setTitle('<:non:762340052666679306> | Vous êtes Pas Le Owner Du Bot !').setColor('#FF0000'))
 
     let aEmbed266 = new Discord.MessageEmbed()
     .setColor('#FF0000')
